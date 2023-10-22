@@ -1,9 +1,15 @@
 import React from 'react'
+import { AboutUsPage, HomePage, LoginPage, ProjectsDetailsPage, ProjectsEditPage, ProjectsPage } from './pages';
 
 function App() {
     return (
         <>
-            <h2>Buenas buenas</h2>
+            <HomePage />
+            <ProjectsPage />
+            <AboutUsPage />
+            <LoginPage />
+            <ProjectsEditPage />
+            <ProjectsDetailsPage />
         </>
     )
 }
