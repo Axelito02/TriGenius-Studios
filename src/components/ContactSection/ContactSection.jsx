@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form } from '../subcomponentes'
+import { Form } from '../../subcomponentes'
 
 export function ContactSection() {
     return (

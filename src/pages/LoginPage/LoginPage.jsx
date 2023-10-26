@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form } from '../../components/subcomponentes'
+import { Form } from '../../subcomponentes'
 import { Visitors } from '../../components'
 
 export function LoginPage() {

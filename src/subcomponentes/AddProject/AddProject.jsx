@@ -3,7 +3,7 @@ import React from 'react'
 export function AddProject() {
     return (
         <>
-            <h2>AddProject</h2>
+            <h2 className='bg-red'>AddProject</h2>
         </>
     )
 }

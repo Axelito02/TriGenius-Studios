@@ -1,5 +1,5 @@
 import React from 'react'
-import { Profile } from '../subcomponentes'
+import { Profile } from '../../subcomponentes'
 
 export function Nav() {
     return (

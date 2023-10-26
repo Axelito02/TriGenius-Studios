@@ -5,7 +5,7 @@ export function AboutUsPage() {
     return (
         <>
             <hr />
-            <h1>Pagina: AboutUsPage</h1>
+            <h1 >Pagina: AboutUsPage</h1>
             <h2>Componentes:</h2>
             <ul>
                 <li><Nav /></li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { AddProject, Card, Filter } from '../subcomponentes'
+import { AddProject, Card, Filter } from '../../subcomponentes'
 
 export function FeaturedSection() {
     return (
