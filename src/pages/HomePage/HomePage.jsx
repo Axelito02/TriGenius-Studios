@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.css'
-import { Nav, Banner, Carrusel, FeaturedProjects, FeaturedSection, ContactSection, Footer } from '../../components'
+import { Nav, Banner, Carrusel, FeaturedProjects, ContactSection, Footer } from '../../components'
 
 export function HomePage () {
   const slides = [
@@ -8,7 +8,8 @@ export function HomePage () {
       member: 'Jhohanson Jovel',
       rol: 'Full-stack Developer',
       intro: 'Im Jhohanson, I love videogames, programming, design and animation...',
-      img: './src/images/JhohanNBG.png'
+      img: './src/images/JhohanNBG.png',
+      bg: './src/images/fondoEquipo.jpg'
     },
     {
       member: 'Karol Fuentes',
@@ -36,7 +37,6 @@ export function HomePage () {
           <Carrusel slides={slides} />
         </div>
         <FeaturedProjects />
-        <FeaturedSection />
         <ContactSection />
       </section>
       <Footer />
