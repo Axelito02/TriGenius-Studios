@@ -1,9 +1,9 @@
 import React from 'react'
 
-export function Visitors() {
-    return (
-        <>
-            <h2>Visitors</h2>
-        </>
-    )
+export function Visitors () {
+  return (
+    <>
+      <h2>Visitors</h2>
+    </>
+  )
 }

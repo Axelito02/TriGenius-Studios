@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Poppins:wght@700&display=swap');
 
-.Banner{
-    width: auto;
+.Banner {
+    width: 100%;
     height: 750px;
     background-color: #282828;
     display: flex;
@@ -11,29 +11,29 @@
     margin-top: 0;
 }
 
-.Banner div{
+.Banner div {
     width: 800px;
     height: auto;
     margin-left: 150px;
 }
 
-.Banner h1{
+.Banner h1 {
     width: 700px;
     color: #F5F3E6;
     font-size: 80px;
-    font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: left;
 }
 
-.BannerImg{
+.BannerImg {
     background-color: violet;
     height: auto;
     width: auto;
     justify-content: flex-end;
 }
 
-.BannerImg img{
+.BannerImg img {
     height: 750px;
     width: 950px;
 }
-
