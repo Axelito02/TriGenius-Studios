@@ -25,7 +25,12 @@ export function Carrusel ({ slides }) {
       >
         {slides.map((s, index) => {
           return (
-            <img key={index} src={s} />
+            <div key={index} className='w-full'>
+              <img src={s.img} alt={`Image of ${s.member}`} />
+              <h3 className='text-xl font-semibold'>{s.member}</h3>
+              <p className='text-sm'>{s.rol}</p>
+              <p className='text-sm'>{s.intro}</p>
+            </div>
           )
         })}
       </div>
