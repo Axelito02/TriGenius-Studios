@@ -1,0 +1,13 @@
+.ActionButton {
+    width: auto;
+    background-color: #FF7E00;
+    color: white;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        scale: 1.1;
+        transition: 1.05s;
+    }
+}

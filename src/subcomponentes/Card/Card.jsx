@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Card.css';
 
-export function Card() {
+export function Card(props) {
     return (
-        <>
-            <h2>Card</h2>
-        </>
-    )
+        <div className='Card'>
+            <img src={props.url} /> {/* Accede a la propiedad "data" en las props */}
+        </div>
+    );
 }
