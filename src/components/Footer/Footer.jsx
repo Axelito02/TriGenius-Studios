@@ -16,7 +16,7 @@ export function Footer () {
             <img src='./src/images/iconFacebook.png' alt='SocialFacebook' />
           </a>
           <a href='#'>
-            <img src='./src/images/iconTwitter.png' alt='SocialTwiter' />
+            <img src='./src/images/iconTwiter.png' alt='SocialTwiter' />
           </a>
           <a href='#'>
             <img src='./src/images/iconYoutube.png' alt='SocialYoutube' />
