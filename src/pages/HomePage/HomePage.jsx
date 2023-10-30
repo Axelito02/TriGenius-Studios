@@ -20,8 +20,10 @@ export function HomePage () {
         </div>
         <div className='h-[10px] w-full bg-amber-500' />
         <FeaturedProjects />
-        <ContactSection />
-      </section>
+        <section id='contactPage'>
+          <ContactSection />
+        </section>
+        </section>
       <Footer />
     </>
   )

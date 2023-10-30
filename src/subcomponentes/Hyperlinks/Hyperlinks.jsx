@@ -9,7 +9,7 @@ export function Hyperlinks () {
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to='/projects'>Projects</Link>
-        <Link to='/homepage-contact'>Contact</Link>
+        <Link to='/'>Contact</Link>
       </div>
     </>
   )

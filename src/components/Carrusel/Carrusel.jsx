@@ -5,23 +5,23 @@ import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-ico
 export function Carrusel ({ slides }) {
   const [current, setCurrent] = useState(0)
 
-  const previousSlide = () => {
-    if (current === 0) setCurrent(slides.lenght - 1)
-    else setCurrent(current - 1)
-  }
-
-  const nextSlide = () => {
-    if (current === slides.lenght - 1) setCurrent(0)
-    else setCurrent(current + 1)
-  }
-
   // const previousSlide = () => {
-  //   setCurrent(current === 0 ? slides.length - 1 : current - 1)
+  //   if (current === 0) setCurrent(slides.lenght - 1)
+  //   else setCurrent(current - 1)
   // }
 
   // const nextSlide = () => {
-  //   setCurrent(current === slides.length - 1 ? 0 : current + 1)
+  //   if (current === slides.lenght - 1) setCurrent(0)
+  //   else setCurrent(current + 1)
   // }
+
+  const previousSlide = () => {
+    setCurrent(current === 0 ? slides.length - 1 : current - 1)
+  }
+
+  const nextSlide = () => {
+    setCurrent(current === slides.length - 1 ? 0 : current + 1)
+  }
 
   return (
     <div className='overflow-hidden relative'>
@@ -34,7 +34,6 @@ export function Carrusel ({ slides }) {
         {slides.map((s, index) => {
           return (
             <img className='carrusel-Img' key={index} src={s} />
-
           )
         })}
       </div>

@@ -28,10 +28,9 @@ function App () {
             </Route>
 
             <Route
-               path= '/homepage/contact'
+               path= '/contact'
                element={<HomePage />}
                >
-
             </Route>
             
             <Route

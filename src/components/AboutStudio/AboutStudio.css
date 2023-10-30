@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 60px;
-    margin: 50px 90px;
+    margin: 12rem 90px;
 
     & .logoCard {
         display: flex;

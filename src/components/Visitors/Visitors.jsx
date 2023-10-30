@@ -6,7 +6,7 @@ export function Visitors () {
     <>
       <div className='visitor-container'>
         <h1 className='visitor-title'>Are you a visitor?</h1>
-        <a className='visitor-hplink' href='#'>Click here</a>
+        <a className='visitor-hplink' href='/'>Click here</a>
         <img className='ideaImg' src='./src/images/doodlesLogIn.png' alt='visitors img' />
       </div>
     </>

@@ -4,7 +4,7 @@ import './ActionButton.css'
 export function ActionButton () {
   return (
     <>
-      <button className='ActionButton'>More Info</button>
+      <button className='ActionButton'><a href="/projects">More Info</a></button>
     </>
   )
 }
