@@ -4,11 +4,19 @@
     align-items: center;
     gap: 32px;
     margin: 12px 160px;
+    padding: 15px;
 
     & .imgMember {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 300px;
+        -webkit-filter: drop-shadow(3px 3px 6px rgba(91, 91, 91, 0.5));
+        filter: drop-shadow(3px 3px 6px rgba(91, 91, 91, 0.5));
+    }
+
+    & .infoMember{
+        padding: 35px;
     }
 
     & .nameMember {
