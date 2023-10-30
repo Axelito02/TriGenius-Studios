@@ -28,7 +28,7 @@ export function CardMember () {
       {membersData.map((member, i) => (
         <div className='CardMember' key={i}>
           <div className='imgMember'>
-            <img src={member.imgValue} alt='Alexander Developer and Member of Trigenius Studios' />
+            <img src={member.imgValue} />
           </div>
           <div className='infoMember'>
             <div className='nameMember'>
