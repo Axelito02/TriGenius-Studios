@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 32px;
     margin-top: 65px;
+    width: 100%;
 
     & .titleSection {
         font-family: 'Poppins', sans-serif;

@@ -1,17 +1,47 @@
 import React from 'react'
 import './index.css'
-import { AboutUsPage, HomePage, LoginPage, ProjectsDetailsPage, ProjectsEditPage, ProjectsPage } from './pages'
+import { Route, Routes } from "react-router-dom";
+import { AboutUsPage, HomePage, LoginPage, ProjectsPage } from './pages'
 
 function App () {
   return (
-    <>
-      <HomePage />
-      <ProjectsPage />
-      <AboutUsPage />
-      <LoginPage />
-      <ProjectsEditPage />
-      <ProjectsDetailsPage />
-    </>
+        <Routes>
+            <Route
+               path= '/'
+               element={<HomePage />}
+               >
+                
+            </Route>
+
+            <Route
+               path= '/about'
+               element={<AboutUsPage />}
+               >
+
+            </Route>
+
+            <Route
+               path= '/projects'
+               element={<ProjectsPage />}
+               >
+
+            </Route>
+
+            <Route
+               path= '/homepage/contact'
+               element={<HomePage />}
+               >
+
+            </Route>
+            
+            <Route
+               path= '/login'
+               element={<LoginPage />}
+               >
+
+            </Route>
+        </Routes>
+
   )
 }
 

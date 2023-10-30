@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 import './Hyperlinks.css'
 
@@ -5,10 +6,10 @@ export function Hyperlinks () {
   return (
     <>
       <div className='hyperlinks'>
-        <a href='#'>Home</a>
-        <a href='#'>About</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Contact</a>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/projects'>Projects</Link>
+        <Link to='/homepage-contact'>Contact</Link>
       </div>
     </>
   )
