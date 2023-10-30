@@ -6,7 +6,7 @@ export function Profile () {
     <>
       <div className='container'>
         <div className='username'>
-          <p>Username</p>
+          <p>Alex Rueda</p>
         </div>
         <div className='userAvatar'>
           <img src='./src/images/Alex.jpg' alt='userAvatar' />

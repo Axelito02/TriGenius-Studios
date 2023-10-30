@@ -2,7 +2,7 @@ import React from 'react'
 import './EditProject.css'
 import { Collaborators, ImgProject, InfoProject } from '../../subcomponentes'
 
-export function EditProject() {
+export function EditProject () {
   return (
     <>
       <div className='ContainerInfoProject'>

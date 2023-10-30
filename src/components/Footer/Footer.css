@@ -28,9 +28,10 @@
         flex-direction: row;
         align-items: center;
         gap: 16px;
+        width: 150px;
 
-        & .socialLink:hover {
-            transform: scale(1.2);
+        & :hover {
+            transform: scale(1.1);
         }
     }
 }
