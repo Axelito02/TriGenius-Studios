@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-export function EditProject() {
-    return (
-        <>
-            <h2>EditProject</h2>
-        </>
-    )
+export function EditProject () {
+  return (
+    <>
+      <h2>EditProject</h2>
+    </>
+  )
 }

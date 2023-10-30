@@ -4,25 +4,6 @@ import { Nav, Banner, Carrusel, FeaturedProjects, ContactSection, Footer } from 
 
 export function HomePage () {
   const slides = [
-    // {
-    //   member: 'Jhohanson Jovel',
-    //   rol: 'Full-stack Developer',
-    //   intro: 'Im Jhohanson, I love videogames, programming, design and animation...',
-    //   img: './src/images/JhohanNBG.png',
-    //   bg: './src/images/fondoEquipo.jpg'
-    // },
-    // {
-    //   member: 'Karol Fuentes',
-    //   rol: 'Graphics and UI Designer',
-    //   intro: 'Im Karol, a passionate web designer and illustrator who loves creating...',
-    //   img: './src/images/KarolNBG.png'
-    // },
-    // {
-    //   member: 'Alexander Rueda',
-    //   rol: 'Full-stack Developer',
-    //   intro: 'Im Alex, a passionate about videogames, programming and design...',
-    //   img: './src/images/AlexNBG.png'
-    // }
     './src/images/JhohanNBG.jpg',
     './src/images/KarolNBG.jpg',
     './src/images/AlexNBG.jpg'
@@ -33,9 +14,11 @@ export function HomePage () {
       <section>
         <Nav />
         <Banner />
-        <div className='w-[100%] m-auto mt-10 '>
+        <div className='h-[10px] w-full bg-amber-500' />
+        <div className='w-[100%] m-0'>
           <Carrusel slides={slides} />
         </div>
+        <div className='h-[10px] w-full bg-amber-500' />
         <FeaturedProjects />
         <ContactSection />
       </section>

@@ -13,7 +13,15 @@ export function AboutStudio () {
             <h1>TriGenius</h1>
           </div>
           <div className='description'>
-            <h1>We are a passionate team of three designers and programmers with a shared vision: to transform ideas into digital reality. Our diverse talents and skills combine to create innovative and elegant solutions. TriGenius Studios is more than a team; we are a digital family working tirelessly to create a positive impact on the world through code and design. Our mission is to bring your vision to life on screen and your success is our success.</h1>
+            <p>
+              We are a passionate team of three designers and programmers with a
+              shared vision: to transform ideas into digital reality. Our
+              diverse talents and skills combine to create innovative and
+              elegant solutions. TriGenius Studios is more than a team; we are a
+              digital family working tirelessly to create a positive impact on
+              the world through code and design. Our mission is to bring your
+              vision to life on screen and your success is our success.
+            </p>
           </div>
         </div>
       </div>
