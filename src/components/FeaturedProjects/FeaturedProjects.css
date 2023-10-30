@@ -8,8 +8,9 @@
 
 .FeaturedTittle{
     width: 600px;
-    margin-left: 150px;
     margin-top: 30px;
+    margin-left: -550px;
+    text-align: left;
 }
 
 .FeaturedTittle h2{
