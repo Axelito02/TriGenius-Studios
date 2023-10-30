@@ -24,13 +24,30 @@
             display: flex;
             padding: 18px;
             color: #3b3b3b;
-            width: 500px;
+            width: 100%;
             border-radius: 8px;
             background-color: rgba(255, 242, 228, 1);
 
             &:active {
                 border: 2px solid;
             }
+        }
+
+        & label {
+            margin-bottom: 2px;
+        }
+
+        & .remind-text{
+            display: block;
+            font-size: 13px;
+            text-align: center;
+            margin: 7px;
+        }
+
+        & .remind-hplink{
+            color: rgba(255, 126, 0, 1);
+            font-weight: 700;
+            text-decoration: underline;
         }
     }
 
@@ -51,6 +68,7 @@
             &:hover {
                 background-color: white;
                 color: #4ea1ff;
+                border: 2px solid #4ea1ff;
             }
         }
     }

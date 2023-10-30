@@ -6,9 +6,9 @@ import './LoginPage.css'
 export function LoginPage () {
   return (
     <>
-      <div className='flex'>
+      <div className='LogInPage'>
         <img className='logo-logIn' src='./src/images/LogoTextBlack.png' alt='logo TriGenius' />
-        <div className='grid grid-cols-2 gap-8 py-[120px] px-40'>
+        <div className='grid-LogIn'>
           <Visitors />
           <FormLogIn />
         </div>
