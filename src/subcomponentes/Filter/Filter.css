@@ -22,10 +22,17 @@
             padding-right: 16px;
             border-right: #D9D9D9 1px solid;
 
+            & img {
+                border-bottom: transparent 3px solid;
+                padding: 2px;
+            }
+
             &:hover img {
                 border-bottom: #D9D9D9 3px solid;
                 filter: invert(1);
                 padding: 2px;
+                transition: 150ms;
+                transition-timing-function: ease-in ;
             }
         }
     }

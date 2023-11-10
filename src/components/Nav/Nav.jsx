@@ -8,7 +8,7 @@ export function Nav () {
       <nav className='containerNav'>
         <div className='Logo'>
           <a href='/'>
-            <img src='./src/images/LogoText.png' alt='Trigenius Logo' />
+            <img src='./src/images/logotipoB.png' alt='Trigenius Logo' />
           </a>
         </div>
         <Hyperlinks />
