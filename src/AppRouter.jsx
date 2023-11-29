@@ -7,37 +7,37 @@ import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound, ContacPag
 function App () {
   return (
     <AuthProvider>
-    <Routes>
-      <Route
-        path='/'
-        element={<HomePage />}
-      />
+      <Routes>
+        <Route
+          path='/'
+          element={<HomePage />}
+        />
 
-      <Route
-        path='/about'
-        element={<AboutUsPage />}
-      />
+        <Route
+          path='/about'
+          element={<AboutUsPage />}
+        />
 
-      <Route
-        path='/projects'
-        element={<ProjectsPage />}
-      />
+        <Route
+          path='/projects'
+          element={<ProjectsPage />}
+        />
 
-      <Route
-        path='/contact'
-        element={<ContacPage />}
-      />
+        <Route
+          path='/contact'
+          element={<ContacPage />}
+        />
 
-      <Route
-        path='/login'
-        element={<LoginPage />}
-      />
+        <Route
+          path='/login'
+          element={<LoginPage />}
+        />
 
-      <Route
-        path='/*'
-        element={<PageNotFound />}
-      />
-    </Routes>
+        <Route
+          path='/*'
+          element={<PageNotFound />}
+        />
+      </Routes>
     </AuthProvider>
   )
 }

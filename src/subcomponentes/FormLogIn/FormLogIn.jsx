@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
 import './FormLogIn.css'
 import { useAuth } from '../../context/AuthContext'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
 export function FormLogIn () {
-  const navigate = useNavigate();
-  const auth = useAuth();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [loginError, setLoginError] = useState("");
-  console.log(email, password);
+  const navigate = useNavigate()
+  const auth = useAuth()
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [loginError, setLoginError] = useState('')
+  console.log(email, password)
   const handleLogin = async (e) => {
-    e.preventDefault();
-    try{
-      await auth.login(email, password);
+    e.preventDefault()
+    try {
+      await auth.login(email, password)
       setLoginError(null)
       navigate('/projects')
     } catch (error) {
       alert('Ups, there is an error triying logging your info')
     }
-  };
+  }
   return (
     <>
       <div className='containerLogIn'>
@@ -32,7 +32,7 @@ export function FormLogIn () {
           </div>
           <div className='inputPasswordLI'>
             <label htmlFor='password'>Password</label>
-            <input onChange={(e)=> setPassword(e.target.value)} type='password' placeholder='Password' className='inputFormLI' id='password' />
+            <input onChange={(e) => setPassword(e.target.value)} type='password' placeholder='Password' className='inputFormLI' id='password' />
             <label className='remind-text' htmlFor='password'>Forgot your password? <a className='remind-hplink' href='#'>remind me</a></label>
           </div>
         </div>
