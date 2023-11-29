@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import { Route, Routes } from 'react-router-dom'
-import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound } from './pages'
+import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound, ContacPage } from './pages'
 
 function App () {
   return (
@@ -23,7 +23,7 @@ function App () {
 
       <Route
         path='/contact'
-        element={<HomePage />}
+        element={<ContacPage />}
       />
 
       <Route

@@ -1,4 +1,4 @@
-import { Profile, Hyperlinks } from '../../subcomponentes'
+import { Profile, Hyperlinks, MenuHamburg } from '../../subcomponentes'
 import React from 'react'
 import './Nav.css'
 
@@ -12,6 +12,9 @@ export function Nav () {
           </a>
         </div>
         <Hyperlinks />
+        <div className='menuHamburg text-5xl py-10px z-10'>
+          <MenuHamburg />
+        </div>
         <div className='userProfile'>
           <Profile />
         </div>

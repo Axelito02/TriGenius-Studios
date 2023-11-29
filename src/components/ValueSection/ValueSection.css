@@ -34,6 +34,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            text-align: left;
 
             & h1 {
                 font-size: 32px;
@@ -43,7 +44,24 @@
         & .textValue {
             display: flex;
             align-items: center;
-            justify-content: center;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .Values {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin: 32px;
+
+        & .cardValue {
+            gap: 0;
+
+            & .textValue {
+                text-align: left
+            }
+        }
+
     }
 }

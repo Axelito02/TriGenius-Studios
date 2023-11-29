@@ -13,6 +13,7 @@
     border-radius: 180px;
     color: #F5F3E6;
     width: 90%;
+    z-index: 30;
 
     & .hyperlinks {
         display: flex;
@@ -20,6 +21,7 @@
         justify-content: flex-end;
         width: 100%;
         gap: 30px;
+        z-index: 10;
 
         & a:hover {
             font-weight: bold;
@@ -32,5 +34,44 @@
         flex-direction: row;
         width: 180px;
         margin-left: 15px;
+    }
+
+    & .menuHamburg {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerNav {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        padding: 20px 32px;
+
+        & .Logo {
+            display: none;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        & .hyperlinks {
+            display: none;
+        }
+
+        & .menuHamburg {
+            display: flex;
+            width: 100%;
+            height: 32px;
+            z-index: 10;
+
+            & .btnHamburg {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
     }
 }

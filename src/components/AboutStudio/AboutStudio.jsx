@@ -10,7 +10,7 @@ export function AboutStudio () {
         </div>
         <div className='InfoStudio'>
           <div className='nameStudio'>
-            <h1>TriGenius</h1>
+            <h1>TriGenius Studios</h1>
           </div>
           <div className='description'>
             <p>
