@@ -1,7 +1,7 @@
 import React from 'react'
 import './CardMember.css'
 
-export function CardMember () {
+export function CardMember() {
   const membersData = [
     {
       imgValue: './src/images/JhohanCircle.png',

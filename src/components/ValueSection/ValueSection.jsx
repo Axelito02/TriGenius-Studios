@@ -1,7 +1,7 @@
 import React from 'react'
 import './ValueSection.css'
 
-export function ValueSection () {
+export function ValueSection() {
   const valueData = [
     {
       imgValue: './src/images/Creativity.png',
