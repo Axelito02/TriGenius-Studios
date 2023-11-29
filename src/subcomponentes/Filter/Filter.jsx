@@ -2,7 +2,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 import React, { useState } from 'react'
 import './Filter.css'
 
-export function Filter () {
+export function Filter() {
   const filters = [
     { id: 1, name: 'All', image: './src/images/AllFilterSVG.svg' },
     { id: 2, name: 'Projects', image: './src/images/ProjectsFilterSVG.svg' },

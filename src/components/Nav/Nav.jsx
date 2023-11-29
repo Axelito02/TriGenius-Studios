@@ -2,7 +2,7 @@ import { Profile, Hyperlinks, MenuHamburg } from '../../subcomponentes'
 import React from 'react'
 import './Nav.css'
 
-export function Nav () {
+export function Nav() {
   return (
     <>
       <nav className='containerNav items-center'>
