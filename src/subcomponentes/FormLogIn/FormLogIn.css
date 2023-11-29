@@ -6,7 +6,7 @@
     gap: 40px;
 
     & h1 {
-        
+        font-weight: bold;
         line-height: 125%;
 
         & span {

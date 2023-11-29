@@ -9,7 +9,7 @@ export function Profile () {
           <p>Alex Rueda</p>
         </div>
         <div className='userAvatar'>
-          <img src='./src/images/Alex.jpg' alt='userAvatar' />
+          <img src='./src/images/AlexCircle.png' alt='userAvatar' />
         </div>
       </div>
     </>

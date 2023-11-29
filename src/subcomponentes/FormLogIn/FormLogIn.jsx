@@ -23,7 +23,7 @@ export function FormLogIn () {
   return (
     <>
       <div className='containerLogIn'>
-        <h1><span className='span-title'>Admin,</span> <br />Sign in to Access
+        <h1 className='text-2xl sm:text-4xl'><span className='span-title'>Admin,</span> <br />Sign in to Access
         </h1>
         <div className='inputsLogIn'>
           <div className='inputEmailLI'>

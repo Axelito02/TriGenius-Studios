@@ -5,7 +5,7 @@ import './Nav.css'
 export function Nav () {
   return (
     <>
-      <nav className='containerNav'>
+      <nav className='containerNav items-center'>
         <div className='Logo'>
           <a href='/'>
             <img src='./src/images/logotipoB.png' alt='Trigenius Logo' />
