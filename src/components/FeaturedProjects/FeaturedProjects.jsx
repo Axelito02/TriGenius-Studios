@@ -23,7 +23,7 @@ export function FeaturedProjects () {
 
   return (
     <section className='FeaturedProjects'>
-      <div className='FeaturedTittle flex flex-col'>
+      <div className='FeaturedTittle flex flex-col font-semibold'>
         <h2 className='SmallTittle text-3xl sm:text-7xl'>Featured</h2>
         <h2 className='BigTittle text-6xl sm:text-9xl'>Projects</h2>
       </div>

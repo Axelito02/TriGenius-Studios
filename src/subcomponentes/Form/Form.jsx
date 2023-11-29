@@ -16,7 +16,7 @@ export function Form () {
             <input type='text' placeholder='Message' className='inputForm w-full' />
           </div>
         </div>
-        <div className='ContainerBtn'>
+        <div className='ContainerBtn font-semibold'>
           <button>Send</button>
         </div>
       </div>

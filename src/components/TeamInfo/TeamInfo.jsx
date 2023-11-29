@@ -7,7 +7,7 @@ export function TeamInfo () {
     <>
       <div className='temainfoContainer'>
         <div className='titleTeamInfo'>
-          <h1>Meet the  <span className='titleColor'>team!</span></h1>
+          <h1 className='font-semibold'>Meet the  <span className='titleColor'>team!</span></h1>
         </div>
         <div className='CardContainerTeamInfo'>
           <CardMember />
