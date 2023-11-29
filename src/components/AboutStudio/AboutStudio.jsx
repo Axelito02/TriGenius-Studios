@@ -6,7 +6,7 @@ export function AboutStudio () {
     <>
       <div className='ContainerAboutStudio'>
         <div className='logoCard'>
-          <img src='./src/images/logotipoN.png' alt='' srcset='' />
+          <img src='./src/images/logotipoN.png' alt='logo'/>
         </div>
         <div className='InfoStudio'>
           <div className='nameStudio'>
