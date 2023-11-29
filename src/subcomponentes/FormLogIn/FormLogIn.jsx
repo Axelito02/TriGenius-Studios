@@ -1,25 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './FormLogIn.css'
+import { useAuth } from '../../context/AuthContext'
 
 export function FormLogIn () {
+  const auth = useAuth();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loginError, setLoginError] = useState("");
+  console.log(email, password);
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try{
+      await auth.login(email, password);
+      setLoginError(null)
+    } catch (error) {
+      alert('Ups, there is an error triying logging your info')
+    }
+  };
   return (
     <>
       <div className='containerLogIn'>
-        <h1 className='text-3xl sm:text-4xl mt-5 sm:mt-0 font-bold'><span className='span-title'>Admin,</span> <br />Sign in to Access
+        <h1><span className='span-title'>Admin,</span> <br />Sign in to Access
         </h1>
         <div className='inputsLogIn'>
           <div className='inputEmailLI'>
             <label htmlFor='email'>Email</label>
-            <input type='email' placeholder='ej. admin@email.com' className='inputFormLI' id='email' />
+            <input onChange={(e) => setEmail(e.target.value)} type='email' placeholder='ej. admin@email.com' className='inputFormLI' id='email' />
           </div>
           <div className='inputPasswordLI'>
             <label htmlFor='password'>Password</label>
-            <input type='password' placeholder='Password' className='inputFormLI' id='password' />
+            <input onChange={(e)=> setPassword(e.target.value)} type='password' placeholder='Password' className='inputFormLI' id='password' />
             <label className='remind-text' htmlFor='password'>Forgot your password? <a className='remind-hplink' href='#'>remind me</a></label>
           </div>
         </div>
-        <div className='ContainerBtn font-semibold'>
-          <button>Sign in</button>
+        <div className='error-message'>{loginError}</div>
+        <div className='ContainerBtn'>
+          <button onClick={(e) => handleLogin(e)}>Sign in</button>
         </div>
       </div>
     </>

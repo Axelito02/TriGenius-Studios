@@ -1,10 +1,12 @@
 import React from 'react'
+import { AuthProvider } from './context/AuthContext'
 import './index.css'
 import { Route, Routes } from 'react-router-dom'
 import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound, ContacPage } from './pages'
 
-function AppRouter () {
+function App () {
   return (
+    <AuthProvider>
     <Routes>
       <Route
         path='/'
@@ -36,8 +38,8 @@ function AppRouter () {
         element={<PageNotFound />}
       />
     </Routes>
-
+    </AuthProvider>
   )
 }
 
-export default AppRouter
+export default App
