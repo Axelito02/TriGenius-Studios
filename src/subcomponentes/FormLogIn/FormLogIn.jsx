@@ -15,7 +15,7 @@ export function FormLogIn() {
     try {
       await auth.login(email, password)
       setLoginError(null)
-      navigate('/projects')
+      navigate('/dashboard')
     } catch (error) {
       alert('Ups, there is an error triying logging your info')
     }

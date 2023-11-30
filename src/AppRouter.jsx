@@ -2,7 +2,7 @@ import React from 'react'
 import { AuthProvider } from './context/AuthContext'
 import './index.css'
 import { Route, Routes } from 'react-router-dom'
-import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound, ContacPage } from './pages'
+import { AboutUsPage, HomePage, LoginPage, ProjectsPage, PageNotFound, ContacPage, Dashboard, ProjectsEditPage, CreateProjectPage } from './pages'
 
 function App () {
   return (
@@ -31,6 +31,21 @@ function App () {
         <Route
           path='/login'
           element={<LoginPage />}
+        />
+
+        <Route
+          path='/dashboard'
+          element={<Dashboard />}
+        />
+
+        <Route
+          path='/edit'
+          element={<ProjectsEditPage />}
+        />
+
+        <Route
+          path='/create'
+          element={<CreateProjectPage />}
         />
 
         <Route

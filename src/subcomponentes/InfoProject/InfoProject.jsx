@@ -4,7 +4,7 @@ import './InfoProject.css'
 export function InfoProject() {
     return (
         <>
-            <div className='infoProject'>
+            <div className='infoProject w-screen'>
                 <div className='titleProject'>
                     <label for='inputTitle'>Title</label>
                     <input type="text" placeholder='Title of project' className='inputTitle' id='inputTitle' />
@@ -13,11 +13,9 @@ export function InfoProject() {
                     <label for='inputDescription'>Description</label>
                     <input type="text" placeholder='Description of project' className='inputDescription' id='inputDescription' />
                 </div>
-                <div className='categoryProject'>
+                <div className='categoryProject flex flex-row flex-wrap sm:flex-col'>
                     <img src='./src/images/AllFilterSVG.svg' />
-
                     <img src='./src/images/ProjectsFilterSVG.svg' />
-
                     <img src='./src/images/UIFilterSVG.svg' />
                 </div>
             </div>
